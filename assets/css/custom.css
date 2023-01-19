@@ -1,0 +1,46 @@
+*{
+    margin: 0; 
+}
+
+:root{
+    --pry-color:hsl(0, 0%, 0%);
+    --sec-color:hsl(0, 0%, 100%);
+
+}
+body{
+    background: var(--pry-color);
+    color: var(--sec-color);
+    display:grid;
+    place-items: center;
+    height: 100vh;
+    
+}
+/* The typing effect */
+.typing::after {
+    content: "|";
+    animation: typing 1s steps(30, end);
+  }
+/* The typewriter cursor effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+.typing{
+    width: fit-content;
+    font-size: 5vw;
+    transition: .2s;
+}
+.animation-effect::after {
+  content: "|";
+  animation: typing .4s steps(30, end);
+}
+@keyframes animation-effect {
+    from { width: 0 }
+    to { width: 100% }
+  }
+.projects-info{
+    width: fit-content;
+    background-color: hsl(0, 3%, 18%) !important;
+    padding: 14px;
+}
+
