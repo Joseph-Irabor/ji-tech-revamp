@@ -5,6 +5,7 @@
 :root{
     --pry-color:hsl(0, 0%, 0%);
     --sec-color:hsl(0, 0%, 100%);
+    --color-heading:#fc6f53;
 
 }
 body{
@@ -45,6 +46,7 @@ body{
 }
 
 /* Projects */
+
 .project-containerr{
   /* border: solid rosybrown; */
   padding: 5px;
@@ -55,7 +57,20 @@ body{
   display: grid;
   gap: 10px;
 }
+
 .projects-lists{
+ 
   background-color: hsla(0, 3%, 15%, 0.696);
   padding: 10px;
+}
+.project-description{
+  /* display: none; */
+}
+.project-heading:hover.project-description{
+  /* display: grid; */
+}
+
+.project-heading{
+  color: var(--color-heading);
+  font-weight: 600;
 }
