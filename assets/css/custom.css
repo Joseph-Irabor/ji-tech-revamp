@@ -6,6 +6,7 @@
     --pry-color:hsl(0, 0%, 0%);
     --sec-color:hsl(0, 0%, 100%);
     --color-heading:#fc6f53;
+    --bk-colr:black;
 
 }
 body{
@@ -50,22 +51,11 @@ body{
 .project-containerr{
   /* border: solid rosybrown; */
   padding: 5px;
+
   
 }
-.projects-ul{
-  list-style-type:none;
-  display: grid;
-  gap: 10px;
-}
 
-.projects-lists{
- 
-  background-color: hsla(0, 3%, 15%, 0.696);
-  padding: 10px;
-}
-.project-description{
-  /* display: none; */
-}
+
 .project-heading:hover.project-description{
   /* display: grid; */
 }
@@ -73,4 +63,27 @@ body{
 .project-heading{
   color: var(--color-heading);
   font-weight: 600;
+}
+
+
+
+.project-lists{
+  
+  background: rgba(128, 128, 128, 0.373);
+  width: 100%;
+  height: 80px;
+  padding:10px;
+    margin-bottom: 30px;
+  overflow: hidden;
+  /* border: solid red; */
+  transition: 0.5s;
+}
+.project-description{
+  margin-top: 40px;
+}
+.project-lists:hover{
+  cursor: pointer;
+  height: 300px;
+  transition: 0.5s ;
+ 
 }

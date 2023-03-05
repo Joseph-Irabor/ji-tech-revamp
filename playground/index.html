@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<style>
+    .spinnerr{
+  width: 100px;
+  height: 100px;
+  border:  10px solid rgba(189,189,189 ,0.25);
+  border-left-color: rgb(229, 191, 3);
+  border-top-color: rgba(3,155,229 ,1);
+  border-bottom-color: red;
+  border-right-color: rgb(72, 255, 0);
+  border-radius: 50%;
+  display: inline-block;
+  animation: rotate 600ms infinite linear;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(1turn)
+  }
+}
+</style>
+
+    <div>
+        <h1>Loading spinner</h1>
+        <span class="spinnerr"></span>
+    </div>
+</body>
+</html>

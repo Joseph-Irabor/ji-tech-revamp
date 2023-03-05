@@ -1,0 +1,30 @@
+
+:root{
+    --bk-colr:black;
+}
+body{
+    color: white;
+    background-color: var(--bk-colr);
+ 
+    
+}
+.main-cont{
+    padding:30px 0px 30px 0px;
+    display: grid;
+    place-items: center;
+    border: solid red;
+    gap: 20px;
+   
+}
+.project-lists{
+    
+    background: rgba(128, 128, 128, 0.373);
+    width: 70%;
+    height: 100px;
+    padding: 10px;
+    transition: 0.7s;
+}
+.project-lists:hover{
+    cursor: pointer;
+    height: 150px;
+}
